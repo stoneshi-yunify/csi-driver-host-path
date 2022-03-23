@@ -70,7 +70,7 @@ resizer:
 snapshotter:
   clusterRoleName: external-snapshotter-runner${suffix}
   clusterRoleBindingName: csi-snapshotter-role${suffix}
-  repository: csiplugin/csi-resizer
+  repository: csiplugin/csi-snapshotter
   tag: v4.0.0
 
 " > $out
